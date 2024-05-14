@@ -5,8 +5,8 @@ export default function ArticleItem({ title, text, tags, image, alt }) {
       <div>
         {text}
       </div>
-      <div className="flex gap-1 left-0 w-full">
-        {tags.map(tag => <span key={tag} className="font-bold">#{tag}</span>)}
+      <div className="flex gap-2 left-0 w-full">
+        {tags.map(tag => <span key={tag} className="font-bold hover:scale-110">#{tag}</span>)}
       </div>
     </div>
   )
